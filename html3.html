@@ -1,12 +1,13 @@
 <html>
 <head>
 <title>College Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style> 
 body
 {
-font-family:Arial, sans-serif;
-background-color: #f4f4f4;
+font-family: Arial, sans-serif;
+background-color: #d9c3df;
 
 }
 
@@ -55,14 +56,53 @@ text-align: center;
 margin: 40px auto;
 border-radius: 20px;
 }
+.meaimg{
+width: 1096px;
+height: 500px;
+border-radius: 87px;
+box-shadow: -webkit-box-shadow: -5px 6px 32px 33px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 6px 32px 33px rgba(0,0,0,0.75);
+box-shadow: -5px 6px 32px 33px rgba(0,0,0,0.75);;
 
+}
+.meapara{
+color: black;
+margin-top: 6%;
+}
+h1{
+color: #3200e3;
+font-size: 63px;
+text-shadow: 2px 4px 8px rgba(0,0,0,0.86);
+}
+.tbl{
+text-align: -moz-center;
+background-color: #1d006c;
+color: white;
+text-align: center;
+margin-left: 36%;
+box-shadow: -webkit-box-shadow: -5px 6px 32px 33px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 6px 32px 33px rgba(0,0,0,0.75);
+box-shadow: -5px 6px 32px 33px rgba(0,0,0,0.75);;
+}.footer{
+width: 100%;
+height: 28%;
 
-
+margin-top: 63px;
+background-color: #d0d0d0;
+}
+.tbdet{
+margin-left:10%;
+}
+.about h2 {
+  color: black;
+  margin-left: -95%;
+}
 </style>
 
 </head>
 
 <body>
+<div class="main">
 <br>
 
 <h1 ><b>MEA Engineering College</b></h1>
@@ -74,8 +114,8 @@ border-radius: 20px;
 
 <div class="about">
 <h2> About us </h2>
-<img src="https://www.meaec.edu.in/images/MEA9.jpg" alt="college image">
-<p style-="text-align: justify;">Welcome to MEA College! Established in [Year], we are dedicated to providing a supportive and engaging environment for students to thrive.
+<img src="https://www.meaec.edu.in/images/MEA9.jpg" alt="college image" class="meaimg">
+<p style-="text-align: justify;" class="meapara">Welcome to MEA College! Established in [Year], we are dedicated to providing a supportive and engaging environment for students to thrive.
 
 At MEA College, we offer a range of undergraduate and graduate programs in fields such as [list a few key areas of study]. Our passionate faculty is committed to helping students succeed and grow, both academically and personally.
 
@@ -86,13 +126,52 @@ Join us at MEA College to start your journey toward a successful future!</p>
 <br>	
 
 
+
 </div>
 
 <div class="courses">
 <h2>COURSES OFFERED </h2>
-<p>Courses offered by MEA Engineering college are.......</P>	
+<p>Courses offered by MEA Engineering college are BTECH CS,CIVIL,MECH,.</P>	
 
-
+<table border=1 class="tbl">
+<tr>
+<th>COURCES</th>
+<th>DURATION</th>
+<th>FEE</th>
+<tr>
+<tr><td>MCA <i class="fa-solid fa-computer"></i></td>
+<td>2 years</td>
+<td>25k/sem</td>
+</tr>
+<tr><td>BTECH CIVIL <i class="fa-solid fa-helmet-safety"></i></td>
+<td>4 years</td>
+<td>25k/sem</td>
+</tr>
+<tr><td>BTECH CS <i class="fa-solid fa-computer"></td>
+<td>4 years</td>
+<td>25k/sem</td>
+</tr>
+<tr><td>BTECH ELECTRONICS <i class="fa-solid fa-plug-circle-bolt"></i></td>
+<td>4 years</td>
+<td>25k/sem</td>
+</tr>
+</table>
+</div>
+<div class="footer">
+<center><h2>ABOUT US</h2></center>
+<div class="details">
+<table class="tbdet">
+<tr>
+<th>Contact</th>
+<td>office mobile : +91 8281 98 75 56</td>
+</tr>
+<th>     Office Whatsapp : </th>
+<td> +91 8281 98 75 56</td>
+</tr>
+</table>
+<div>
+</div>
+<button><a href="">click here to get more details</a></button>
 
 
 
