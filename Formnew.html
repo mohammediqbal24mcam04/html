@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>STUDENT REGISTRATION FORM</h2>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name" maxlength="30" value="xyz" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name" maxlength="30" value="A B" required></td>
+            </tr>
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="email" value="xyz@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date" name="dob" value="2001-10-18" required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="tel" name="mobile" pattern="[0-9]{10}" value="9998887776" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female" checked> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="2" maxlength="30">xyz, 111/A, abc, nanac</textarea></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city" maxlength="30" value="ABC Town" required></td>
+            </tr>
+            <tr>
+                <td>PIN Code:</td>
+                <td><input type="text" name="pincode" pattern="[0-9]{6}" value="890765" required></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text" name="state" value="Karnataka" required></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td><input type="text" name="country" value="India" required></td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="Dancing" checked> Dancing
+                    <input type="checkbox" name="hobbies" value="Singing" checked> Singing
+                    <input type="checkbox" name="hobbies" value="Painting"> Painting
+                    <input type="checkbox" name="hobbies" value="Reading"> Reading
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table border="1">
+                        <tr>
+                            <th>SL NO</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td>Karnataka</td>
+                            <td>98</td>
+                            <td>2016</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td>Karnataka</td>
+                            <td>96</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Degree</td>
+                            <td>Hyderabad</td>
+                            <td>85</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td>IIT</td>
+                            <td>77</td>
+                            <td>2023</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Course Applied For:</td>
+                <td>
+                    <input type="radio" name="course" value="MCA"> MCA
+                    <input type="radio" name="course" value="M.Tech" checked> M.Tech
+                    <input type="radio" name="course" value="M.Sc"> M.Sc
+                    <input type="radio" name="course" value="Ph.D"> Ph.D
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" maxlength="30" value="********"></td>
+            </tr>
+            <tr>
+                <td>Date of TC:</td>
+                <td><input type="date" name="date_of_tc" value="2023-04-05"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
