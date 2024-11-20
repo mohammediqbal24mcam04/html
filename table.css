@@ -1,0 +1,21 @@
+table th{
+color: #fff;
+background-color: #b22222;
+padding: 20px;
+border: 1px solid grey;
+}
+table td{
+padding: 8px;
+border: 1px solid green;
+}
+table{
+width: 100%;
+font-family: arial;
+}
+
+table tr:nth-child(even){
+background-color: #f2f2f2;
+}
+table tr:hover{
+background-color: burlywood;
+}
